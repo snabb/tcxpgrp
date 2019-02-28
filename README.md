@@ -6,8 +6,8 @@ tcxpgrp
 The Go package tcxpgrp implements POSIX.1 (IEEE Std 1003.1) tcgetpgrp
 and tcsetpgrp functions.
 
-There is also a function which can be used to determine if the calling
-process is a foreground process.
+There is also a function for determining if the calling process is a
+foreground process.
 
 This package is Linux/UNIX specific.
 

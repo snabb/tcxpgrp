@@ -1,8 +1,8 @@
 // Package tcxpgrp implements POSIX.1 (IEEE Std 1003.1) tcgetpgrp and
 // tcsetpgrp functions for Go programming language.
 //
-// There is also a function which can be used to determine if the calling
-// process is a foreground process.
+// There is also a function for determining if the calling process is a
+// foreground process.
 //
 // This package is Linux/UNIX specific.
 package tcxpgrp
@@ -33,7 +33,8 @@ func TcSetpgrp(fd int, pgrp int) (err error) {
 // at any moment if the user utilizes the shell job control commands (fg/bg).
 //
 // Example use for command line tools: suppress extra output if a
-// process is running in background.
+// process is running in background, provide verbose output when
+// running on foreground.
 func IsForeground() bool {
 	fd, err := unix.Open("/dev/tty", 0666, unix.O_RDONLY)
 	if err != nil {
