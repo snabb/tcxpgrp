@@ -1,7 +1,8 @@
 tcxpgrp
 =======
 
-[![GoDoc](https://godoc.org/github.com/snabb/tcxpgrp?status.svg)](https://godoc.org/github.com/snabb/tcxpgrp)
+[![Go Reference](https://pkg.go.dev/badge/github.com/snabb/tcxpgrp.svg)](https://pkg.go.dev/github.com/snabb/tcxpgrp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/snabb/tcxpgrp)](https://goreportcard.com/report/github.com/snabb/tcxpgrp)
 
 The Go package tcxpgrp implements POSIX.1 (IEEE Std 1003.1) tcgetpgrp
 and tcsetpgrp functions.
@@ -15,7 +16,7 @@ This package is Linux/UNIX specific.
 Documentation
 -------------
 
-https://godoc.org/github.com/snabb/tcxpgrp
+https://pkg.go.dev/github.com/snabb/tcxpgrp
 
 
 Example
